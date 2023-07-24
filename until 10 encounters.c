@@ -3,7 +3,7 @@ int main()
 {
     int num, N;
     scanf("%d", &N);
-    for(int ctr = 1; ctr < N; ctr++)
+    for(int i = 1; i < N; i++) // A for loop to print the number of digits we want to enter
     {
         scanf("%d",&num);
         if(num==10)
