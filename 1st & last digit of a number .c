@@ -6,7 +6,7 @@ int main() {
     scanf ("%d",&n);
     int last,first;
     printf ("The last digit of the given number is = %d\n",n%10);
-    while (n>=100)
+    while (n>=10)
     {
         n/=10;
     }
