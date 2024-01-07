@@ -15,9 +15,11 @@ o++;
 }
 n/=10;
 }
+  if (f==1)
+  {
 for (int i=0;i<o;i++)
 {
-For (int j=i+1;j<o;j++)
+for (int j=i+1;j<o;j++)
 {
 int temp = arr[i];
 arr[i]=arr[j];
