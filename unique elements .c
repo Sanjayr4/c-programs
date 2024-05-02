@@ -24,7 +24,7 @@ int main()
         }
         if (!repeat)
         {
-            printf ("The repeated numbers are = %d \n",arr[i]);
+            printf ("The non-repeated numbers are = %d \n",arr[i]);
         }
     }
 
