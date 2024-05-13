@@ -18,6 +18,7 @@ if (num%i==0)
 count++;
 }
 }
+}
 if (count==2)
 {
 printf ("The Given Number is Prime");
