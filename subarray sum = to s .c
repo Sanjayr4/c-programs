@@ -26,10 +26,8 @@ int main()
         }
         else if (current > s)
         {
-            
                 current -= arr[left];
                 left++;
-            
         }
         else
         {
